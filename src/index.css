@@ -5,9 +5,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
+  font-family: 'm';
+
+  background-color: #e5e5f7;
+
+background-image:  url("https://w0.peakpx.com/wallpaper/484/769/HD-wallpaper-space-stars-purple-sky-space-stars-sky-purple-nature.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.content{
+  margin-top: 200px;
+  width: 455px;
+  box-shadow: 10px 10px 10px rgb(40, 36, 36); 
+   background-color: white;
+   box-shadow: 8px 8px 8px #493b57;
+}
+h5{
+  color:white;
+ text-align: center;
+  font-size: 30px;
+  
+  
+
+}
+.main{
+  font-weight: bold;
+  font-size: 15px;
+}
+h3{
+  color: rgb(40 10 58);
+  text-shadow: 1px 1px 1px;
+  font-weight: lighter;
+  
+  font-size: 25px;
+}
+.btn1{
+  background-color: #2a222f;
+  padding-top: 5px;
+  width: 80px;
+  box-shadow: 3px 3px 3px #6d6671;
+  border-radius: 10px;
+  color: white;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.btn{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+@media  (max-width: 1800px) {
+  body {
+    background-image:  url("https://w0.peakpx.com/wallpaper/484/769/HD-wallpaper-space-stars-purple-sky-space-stars-sky-purple-nature.jpg");
+    background-repeat: no-repeat;
+    background-size: 1800px;
+  }
+  .content{
+    width: 355px;
+   margin-top: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+  h5{
+    font-size: 25px;
+  }
 }
